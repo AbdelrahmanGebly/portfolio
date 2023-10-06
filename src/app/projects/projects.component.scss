@@ -1,0 +1,42 @@
+.image img,.image2 img{
+  height: 1100px;
+  transition: top 7s;
+  top: 0px;
+}
+.image2 img{
+  height: 2000px;
+}
+.image,.image2{
+  max-height: 450px;
+  cursor: pointer;
+}
+.image:hover img,.image2:hover img{
+  top: -600px;
+}
+.text a{
+  font-size: 17px;
+  padding: 20px;
+  color: gray;
+  transition: color .5s;
+}
+.text a:hover{
+  color: rgb(23, 23, 229);
+}
+@media screen and (max-width:767px){
+  .row h2{
+    font-size: 20px !important;
+  }
+  .row p{
+    font-size: 17px !important;
+  }
+  .image img{
+    height: 800px;
+  }
+  .image2 img{
+    height: 1200px;
+  }
+  .image,.image2{
+    max-height: 400px;
+    margin-bottom: 50px;
+  }
+}

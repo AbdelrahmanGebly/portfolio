@@ -1,0 +1,55 @@
+.header{
+  font-size: 55px;
+  font-weight: 700;
+}
+.wave{
+  width: 55px;
+}
+.text i{
+  transition: color .5s;
+}
+.text i:hover{
+  color: blue;
+}
+.text p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: rgb(85, 85, 85)
+}
+
+
+
+
+
+
+// media Query
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:992px){
+  .row{
+    flex-direction: column-reverse;
+  }
+  .text .image{
+    max-width: 200px;
+  }
+}
+@media screen and (max-width:767px){
+  .text{
+    text-align: center !important;
+  }
+  h1{
+    font-size: 30px !important;
+  }
+  .wave{
+    width: 30px;
+  }
+  .text p{
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width:567px){
+
+}

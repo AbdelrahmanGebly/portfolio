@@ -1,0 +1,50 @@
+p{
+  font-size: 17px;
+  font-weight: 400;
+  // line-height: 28.8px;
+  color: rgba(85, 85, 85, 0.847)
+}
+.labtop{
+  height: 350px;
+}
+.person{
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  // transform: translateX(-50%);
+}
+.images{
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  left: 100%;
+  transform: translate(-80%,15%);
+}
+.images .person{
+  transform: translate(-50%,-50%);
+}
+.imageText{
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  transform:translate(-50%,-50%);
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+0%{
+  transform:translate(-50%,-50%) rotate(0deg);
+}
+100%{
+  transform:translate(-50%,-50%) rotate(360deg);
+}
+}
+@media screen and (max-width:767px){
+  .text{
+    text-align: center;
+  }
+  .labtop{
+    height: 300px;
+  }
+}
